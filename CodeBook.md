@@ -1,8 +1,9 @@
 # Code Book - Finaldata.txt For Getting and Cleaning Data Assignment
 
 Column Variables:
+
  [1] "subjectID"
-      ID number assigned to each subject, ranging from 1 to 30
+     ID number assigned to each subject, ranging from 1 to 30
       
  [2] "DataType"  
       Specifies if the data collected from the subject in question was used as part of the training data or the testing data
@@ -17,11 +18,12 @@ Column Variables:
           "LAYING" 
           
           
-### Each column variable from columns 4 onward are the calculated mean of the listed variable per activity (as denoted by the "Mean of_" before each variable), for each subject.
+### Each column variable from columns 4 onward are the calculated mean of the listed variable (as denoted by the "Mean of_" before each variable) per activity, for each subjectID.
 ### Names of the measures are constructed based on what is being measured by the device, descriptors making up variable names are:
 
 t - denoting time domain signals, the raw data output by the recording device. Captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
 f - frequency domain signal, this data has been fast fourier transformed (FFT). 
+
 Accelerometer - Data collected from the phone's accelerometer, representing linear acceleration. This signal is broken down into Body and Gravity acceleration signals
      Body - denotes Body acceleration signal
      Gravity - denotes Gravity acceleration signal
@@ -30,6 +32,7 @@ Jerking motion - the body linear acceleration and angular velocity were derived 
 Magnitude - The magnitude of these three-dimensional signals were calculated using the Euclidean norm
 mean - denotes that the data used to calculate the mean values listed in this column was mean data  
 standard deviation - denotes that the data used to calculate the mean values listed in this column was standard deviation data 
+1
 X direction - denotes that the data was recorded in X axial direction
 Y direction - denotes that the data was recorded in Y axial direction
 Z direction - denotes that the data was recorded in Z axial direction
