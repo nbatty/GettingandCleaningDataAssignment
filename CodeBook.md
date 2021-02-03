@@ -27,7 +27,7 @@ f - frequency domain signal, this data has been fast fourier transformed (FFT).
 Accelerometer - Data collected from the phone's accelerometer, representing linear acceleration. This signal is broken down into Body and Gravity acceleration signals  
      Body - denotes Body acceleration signal  
      Gravity - denotes Gravity acceleration signal  
-Gyroscope - Data collected from the phone's accelerometer, representing angular acceleration  
+Gyroscope - Data collected from the phone's gyroscope, representing angular acceleration  
 Jerking motion - the body linear acceleration and angular velocity were derived in time to obtain Jerk signals  
 Magnitude - The magnitude of these three-dimensional signals were calculated using the Euclidean norm  
 mean - denotes that the data used to calculate the mean values listed in this column was mean data    
