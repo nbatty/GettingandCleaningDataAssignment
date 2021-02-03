@@ -3,17 +3,17 @@
 Column Variables:
 
  [1] "subjectID"
-     ID number assigned to each subject, ranging from 1 to 30
+     ID number assigned to each subject, ranging from 1 to 30  
       
  [2] "DataType"  
-      Specifies if the data collected from the subject in question was used as part of the training data or the testing data
-      
+      Specifies if the data collected from the subject in question was used as part of the training data or the testing data  
+        
  [3] "Activity"
-      Each subject has all measures calculated per activity, resulting in 6 rows per subject as denoted in the "Activity" column. Activities are as follows:
-          "WALKING"
-          "WALKING_UPSTAIRS"   
-          "WALKING_DOWNSTAIRS" 
-          "SITTING"            
+      Each subject has all measures calculated per activity, resulting in 6 rows per subject as denoted in the "Activity" column. Activities are as follows:  
+          "WALKING"  
+          "WALKING_UPSTAIRS"     
+          "WALKING_DOWNSTAIRS"   
+          "SITTING"              
           "STANDING"          
           "LAYING" 
           
