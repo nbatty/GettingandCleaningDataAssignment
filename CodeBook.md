@@ -1,6 +1,6 @@
 # Code Book - Finaldata.txt For Getting and Cleaning Data Assignment
 
-Column Variables:
+## Column Variables:
 
  [1] "subjectID"  
      ID number assigned to each subject, ranging from 1 to 30  
@@ -37,7 +37,7 @@ X direction - denotes that the data was recorded in X axial direction
 Y direction - denotes that the data was recorded in Y axial direction  
 Z direction - denotes that the data was recorded in Z axial direction  
 
-### Measures included are:  
+## Measures included for the remaining columns are:  
  [4] "Mean of_t: Body Accelerometer: mean - X direction"   
  
  [5] "Mean of_t: Body Accelerometer: mean - Y direction"      
