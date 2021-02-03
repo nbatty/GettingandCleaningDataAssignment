@@ -11,5 +11,3 @@ The script requires no other scripts to run, but does make use of the DPLYR and 
 The data set is downloaded, a dataframe is built of just the mean and standard deviation measures in the dataset
 
 The data is then separated by subject and by activity, the means are taken, and a new dataframe is built that contains the means for each measure (so the mean of the means and mean of the standard deviations) for each subject per activity. The dataframe also lists if the subject was used to create the training dataset or the test dataset. 
-
-For the sake of consistency, the zipped data folder is also included in the repository as well.
