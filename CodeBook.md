@@ -1,4 +1,4 @@
-##Code Book - Finaldata.txt For Getting and Cleaning Data Assignment
+# Code Book - Finaldata.txt For Getting and Cleaning Data Assignment
 
 Column Variables:
  [1] "subjectID"
@@ -17,9 +17,8 @@ Column Variables:
           "LAYING" 
           
           
-###Each column variable from columns 4 onward are the calculated mean of the listed variable per activity (as denoted by the "Mean of_" before each variable), for each subject.
-
-###Names of the measures are constructed based on what is being measured by the device, descriptors making up variable names are:
+### Each column variable from columns 4 onward are the calculated mean of the listed variable per activity (as denoted by the "Mean of_" before each variable), for each subject.
+### Names of the measures are constructed based on what is being measured by the device, descriptors making up variable names are:
 
 t - denoting time domain signals, the raw data output by the recording device. Captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.
 f - frequency domain signal, this data has been fast fourier transformed (FFT). 
